@@ -76,7 +76,7 @@ class ReactTraining extends Component
         <View style={styles.rightContainer}>
 
           <Text style={styles.title}>{movie.title}</Text>
-          <Text style={styles.year}>{movie.year}</Text>
+          <Text style={styles.yar}>{movie.year}</Text>
 
         </View>
 
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     textAlign:'center',
   },
 
-  year:
+  yar:
   {
     textAlign:'center',
   },
